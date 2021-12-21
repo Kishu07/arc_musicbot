@@ -1,18 +1,18 @@
 {
   "name": "Arc Music Bot",
   "description": "A Telegram Music Bot with proper functions written in Python with Pyrogram and Py-Tgcalls.",
-  "repository": "https://github.com/Kishu07/arc_music",
+  "repository": "https://github.com/Kishu07/arc_muiscbot",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
   "keywords": [
   "python3",
   "telegram",
   "bot",
-  "Yukki",
-  "YukkiMusicBot",
+  "Arc",
+  "Arcmusicbot",
   "telegram-bot",
   "pyrogram"
   ],
-  "repository": "https://github.com/Kishu07/arc_music",
+  "repository": "https://github.com/Kishu07/arc_musicbot",
   "stack": "container",
   "env": {
     "API_ID": {
@@ -65,10 +65,30 @@
       "value": "",
       "required": true
     },
-    "STRING_SESSION": {
-      "description": "A Pyrogram String Session.",
+    "STRING_SESSION1": {
+      "description": "A Pyrogram String Session of Assistant Account.",
       "value": "",
       "required": true
+    },
+    "STRING_SESSION2": {
+      "description": "A Pyrogram String Session of Assistant Account.",
+      "value": "",
+      "required": false
+    },
+    "STRING_SESSION3": {
+      "description": "A Pyrogram String Session of Assistant Account.",
+      "value": "",
+      "required": false
+    },
+    "STRING_SESSION4": {
+      "description": "A Pyrogram String Session of Assistant Account.",
+      "value": "",
+      "required": false
+    },
+    "STRING_SESSION5": {
+      "description": "A Pyrogram String Session of Assistant Account.",
+      "value": "",
+      "required": false
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
